@@ -14,4 +14,4 @@ Interfaz , Abstract Factory, ConcreteProduct, ConcreteFactory
 ```
 
 
-![Factory Image](image.png)
+![Factory Image](./assets/images/image.png)
