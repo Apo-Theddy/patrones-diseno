@@ -17,7 +17,6 @@ public class MySQLDBAdapter implements IDBAdapter {
     private static final String DB_PORT_PROP = "port";
     private static final String DB_USER_PROP = "user";
 
-    @Override
     public Connection getConnection() {
         try {
             Connection connection = DriverManager.getConnection(createConnectionString());

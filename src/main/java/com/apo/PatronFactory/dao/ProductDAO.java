@@ -19,7 +19,7 @@ public class ProductDAO {
 
     public List<Product> findAllProducts() {
         Connection connection = dbAdapter.getConnection();
-        List<Product> productList = new ArrayList<>();
+        List<Product> productList = new ArrayList<Product>();
         try {
             PreparedStatement statement = connection
                     .prepareStatement("SELECT idProductos, productName, productPrice FROM productos");

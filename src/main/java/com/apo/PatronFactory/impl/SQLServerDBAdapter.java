@@ -23,7 +23,6 @@ public class SQLServerDBAdapter implements IDBAdapter {
         }
     }
 
-    @Override
     public Connection getConnection() {
         try {
             String connectionString = createConnectionString();
